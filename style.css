@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(38, 117, 73);
+    font-family: "Raleway", sans-serif;
+}
+
+a {
+    color: coral;
+    text-decoration: none;
+}
+
+
+#container {
+    margin: 50px auto;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.form-wrap {
+    padding: 20px;
+    border-radius: 7px;
+    background-color: white;
+    text-align: center;
+}
+
+.form-wrap h1,
+.form-wrap p {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin: 20px 0;
+}
+
+.form-group label {
+    display: block;
+    font-size: 10px;
+    text-align: left;
+    margin bottom: 5px;
+    color: grey;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.form-wrap button {
+    width: 80%;
+    background: coral;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.form-wrap .bottom-texts {
+    font-size: 12px;
+}
+
+footer {
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+}
+
+.form-wrap .bottom-texts a:hover {
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(196, 97, 60);
+}
