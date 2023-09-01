@@ -5,15 +5,14 @@
 }
 
 body {
-    background-color: rgb(38, 117, 73);
+    background-color: rgb(42, 109, 103);
     font-family: "Raleway", sans-serif;
 }
 
 a {
-    color: coral;
+    color: #86579d;
     text-decoration: none;
 }
-
 
 #container {
     margin: 50px auto;
@@ -41,7 +40,7 @@ a {
     display: block;
     font-size: 10px;
     text-align: left;
-    margin bottom: 5px;
+    margin-bottom: 5px;
     color: grey;
 }
 
@@ -54,7 +53,7 @@ input {
 
 .form-wrap button {
     width: 80%;
-    background: coral;
+    background: #9f61bd;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -79,10 +78,14 @@ footer {
 }
 
 footer a:hover {
-    color: white;
+    color: #e4dce8;
     font-weight: bold;
 }
 
+footer a {
+    color: #d4b7e4;
+}
+
 button:hover {
-    background-color: rgb(196, 97, 60);
+    background-color: #ba86d4;
 }
